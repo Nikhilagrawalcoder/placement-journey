@@ -1,5 +1,6 @@
 s=set()
 s.add(20)
-s.add(20.65)
-s.add("harry")
+s.add(20.0)
+s.add("20")
 print(len(s))
+#python is 
