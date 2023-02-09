@@ -1,0 +1,11 @@
+import math
+a = int(input("enter the number "))
+b = math.log10(a)+1
+sum =0
+while(a!=0):
+    sum = sum +  ((a%10)**b)
+    a/=10
+if sum == a:
+    print("numebr is armsstrong")
+else:
+    print("number is not armstriong")
