@@ -1,5 +1,8 @@
+from builtins import int
+
+
 a=int("2")
-b=int("1")
+b= int("1")
 print(a+b)
 # implict typecasting
 a=5
