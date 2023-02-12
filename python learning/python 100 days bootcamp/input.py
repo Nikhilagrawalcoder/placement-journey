@@ -1,0 +1,5 @@
+a=input()
+print(type(a))
+x=input()
+y=input()
+print(int(x)+int(y))
