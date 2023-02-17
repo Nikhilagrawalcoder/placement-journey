@@ -1,0 +1,3 @@
+# syntax
+# if(condition):
+#     expression
