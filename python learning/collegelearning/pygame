@@ -1,0 +1,5 @@
+import pygame as pg
+pg.display.set_caption("hello snake")
+while(True):
+    screen = pg.display.set_mode((300,400))
+    
