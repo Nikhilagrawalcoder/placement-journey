@@ -1,8 +1,11 @@
+l =0
 def fact(n,sum,i):
     if(i <=n):
-          fact(n,sum*i,i+1)
+        print(sum)
+        l = l+sum
+        fact(n,sum*i,i+1)
     else:
-        return sum*i 
+        return l
 
 n =5
 sum =1
